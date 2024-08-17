@@ -8,7 +8,7 @@ import BotData from "./botData";
 
 const routes = [
    {
-    path: '/bot-battle',
+    path: '/',
     element: <App/>,
     errorElement: <h1> An Error coccured</h1>
    },{

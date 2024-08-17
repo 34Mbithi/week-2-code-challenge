@@ -1,5 +1,5 @@
 export function GetBots() {
-   return fetch("com/bots",{
+   return fetch("https://bot-server-mauve.vercel.app/bots",{
         method: "GET",
         headers: {
             "Content-Type": "application/json",
@@ -11,7 +11,7 @@ export function GetBots() {
 }
 
 export function GetArmy() {
-    return fetch("army",{
+    return fetch("https://bot-server-mauve.vercel.app/bots/army",{
          method: "GET",
          headers: {
              "Content-Type": "application/json",
@@ -23,7 +23,7 @@ export function GetArmy() {
  }
  
  export function getBotsById(id){
-    return fetch(`/bots/${id}`,{
+    return fetch(`https://bot-server-mauve.vercel.app/bots/${id}`,{
     method: "GET",
     headers: {
       "Content-Type": "application/json"
